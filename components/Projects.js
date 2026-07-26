@@ -49,13 +49,13 @@ export default function Projects() {
             </ul>
           </div>
 
-          {/* Project 2 */}
+          {/* Project 2: PPMS Project */}
           <div className="project-card reveal">
             <div className="pcard-top">
-              <div className="pcard-icon">🌐</div>
+              <div className="pcard-icon">🏢</div>
               <div className="pcard-links">
                 <a
-                  href="https://github.com/hiteshvaishnav602-tech/portfolio-website"
+                  href="https://github.com/hiteshvaishnav602-tech"
                   className="plink"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -67,21 +67,29 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            <h3 className="pcard-title">Personal Portfolio Website</h3>
+            <h3 className="pcard-title">PPMS (Role &amp; Vendor Management System)</h3>
             <div className="pcard-tags">
-              <span>Next.js</span>
               <span>React.js</span>
-              <span>Tailwind CSS</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+              <span>Role &amp; Vendor Model</span>
             </div>
             <ul className="pcard-bullets">
               <li>
-                Designed and developed a <strong>fully responsive portfolio</strong> showcasing projects, skills, and
-                technical expertise.
+                Developed full-stack <strong>PPMS application</strong> architecture featuring robust <strong>Role Model</strong> and <strong>Vendor Model</strong> integrations.
               </li>
-              <li>Built reusable React/Next.js components and modern UI layouts.</li>
-              <li>Optimized performance and user experience across desktop, tablet, and mobile devices.</li>
               <li>
-                Deployed on <strong>Vercel</strong> with continuous updates through GitHub.
+                Implemented multi-tier <strong>Role-Based Access Control (RBAC)</strong> for Admin, Vendor, and User modules with JWT authentication &amp; route protection.
+              </li>
+              <li>
+                Built complete <strong>Vendor Model</strong> system for vendor onboarding, catalog management, purchase order tracking, and status updates.
+              </li>
+              <li>
+                Designed scalable RESTful APIs with Express.js and optimized MongoDB schemas for handling high-volume operational records.
+              </li>
+              <li>
+                Crafted an interactive React.js admin dashboard featuring real-time data tables, search filtering, and CRUD operations.
               </li>
             </ul>
           </div>
