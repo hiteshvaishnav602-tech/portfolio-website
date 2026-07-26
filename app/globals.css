@@ -1928,13 +1928,18 @@ a.cinfo-val:hover {
 
 @media (max-width: 950px) {
   .section-pad {
-    padding: 80px 0;
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 6vw, 42px);
+    margin-bottom: 40px;
   }
 
   .hero-inner {
     grid-template-columns: 1fr;
-    gap: 40px;
-    width: min(100%, calc(100% - 40px));
+    gap: 32px;
+    width: min(100%, calc(100% - 32px));
   }
 
   .hero-content {
@@ -1944,7 +1949,7 @@ a.cinfo-val:hover {
 
   .hero-name {
     justify-content: center;
-    font-size: clamp(32px, 8vw, 56px);
+    font-size: clamp(30px, 8vw, 54px);
     flex-wrap: wrap;
     white-space: normal;
     word-break: break-word;
@@ -1954,14 +1959,16 @@ a.cinfo-val:hover {
   .hero-title-wrap {
     justify-content: center;
     flex-wrap: wrap;
-    font-size: clamp(18px, 4.5vw, 24px);
+    font-size: clamp(17px, 4.5vw, 24px);
     text-align: center;
   }
 
   .hero-desc {
     max-width: 100%;
     text-align: center;
-    font-size: 15.5px;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 28px;
   }
 
   .hero-actions {
@@ -1971,12 +1978,14 @@ a.cinfo-val:hover {
 
   .hero-visual {
     width: 100%;
-    max-width: 460px;
+    max-width: 480px;
     margin: 0 auto;
+    transform: none !important;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .nav-links,
@@ -1988,89 +1997,136 @@ a.cinfo-val:hover {
     display: flex;
   }
 
-  .hero-socials {
-    justify-content: center;
-  }
-
   .tcard-header {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 
   .about-cards {
     grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
 
   .nav-inner {
-    width: calc(100% - 40px);
+    width: calc(100% - 32px);
   }
 }
 
 @media (max-width: 600px) {
   .section-container {
-    width: calc(100% - 32px);
+    width: calc(100% - 28px);
   }
 
   .hero-section {
-    padding: 100px 16px 60px;
+    padding: 90px 14px 50px;
   }
 
   .hero-name {
-    font-size: clamp(28px, 9vw, 42px);
+    font-size: clamp(26px, 8.5vw, 40px);
   }
 
   .hero-actions {
     flex-direction: column;
     width: 100%;
+    gap: 10px;
   }
 
   .hero-actions .btn-primary,
   .hero-actions .btn-outline {
     width: 100%;
     justify-content: center;
+    padding: 13px 24px;
+    font-size: 14.5px;
+  }
+
+  .code-card-header {
+    padding: 10px 14px;
   }
 
   .code-card-body {
-    font-size: 12.5px;
-    padding: 16px;
+    font-size: 11.5px;
+    padding: 14px;
+    line-height: 1.6;
+    overflow-x: auto;
+  }
+
+  .code-ln {
+    width: 18px;
+    margin-right: 8px;
+  }
+
+  .hero-stats-strip {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+
+  .hstat-num {
+    font-size: 16px;
+  }
+
+  .hstat-lbl {
+    font-size: 10.5px;
   }
 
   .footer-inner {
     flex-direction: column;
     text-align: center;
-    gap: 12px;
+    gap: 10px;
   }
 
   .about-cards {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
 
   .stat-card {
-    padding: 20px 14px;
+    padding: 16px 12px;
   }
 
   .stat-num {
-    font-size: 26px;
+    font-size: 24px;
+  }
+
+  .stat-label {
+    font-size: 11.5px;
   }
 
   .contact-form {
-    padding: 20px 16px;
+    padding: 18px 14px;
   }
 
   .timeline {
-    padding-left: 16px;
+    padding-left: 14px;
   }
 
   .timeline-dot {
-    left: -22px;
+    left: -20px;
   }
 
   .timeline-card {
-    padding: 20px;
+    padding: 18px 14px;
+  }
+
+  .skill-pills {
+    gap: 6px;
+  }
+
+  .skill-pill {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+
+  .skills-categories {
+    gap: 16px;
+  }
+
+  .skill-cat {
+    padding: 18px 14px;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
   .about-cards {
     grid-template-columns: 1fr;
   }
@@ -2078,12 +2134,19 @@ a.cinfo-val:hover {
   .pcard-top {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 10px;
   }
 
   .pcard-links {
     width: 100%;
     justify-content: flex-start;
+  }
+}
+
+/* Touch devices 3D tilt reset */
+@media (hover: none) {
+  .hero-visual {
+    transform: none !important;
   }
 }
 
