@@ -170,7 +170,8 @@ export default function Hero() {
               </div>
               <div className="code-line">
                 <span className="code-ln">2</span>
-                <span className="code-kw">const</span> <span className="code-var">developer</span> = &#123;
+                <span className="code-kw">const</span>{' '}
+                <span className="code-var">developer</span> = &#123;
               </div>
               <div className="code-line pl">
                 <span className="code-ln">3</span>
@@ -198,7 +199,9 @@ export default function Hero() {
               </div>
               <div className="code-line pl-2">
                 <span className="code-ln">9</span>
-                <span className="code-kw">return</span> <span className="code-kw">await</span> <span className="code-fn">deploy</span>(<span className="code-param">idea</span>, &#123; <span className="code-key">quality</span>: <span className="code-str">"100%"</span> &#125;);
+                <span className="code-kw">return</span>{' '}
+                <span className="code-kw">await</span>{' '}
+                <span className="code-fn">deploy</span>(<span className="code-param">idea</span>, &#123; <span className="code-key">quality</span>: <span className="code-str">"100%"</span> &#125;);
               </div>
               <div className="code-line pl">
                 <span className="code-ln">10</span>

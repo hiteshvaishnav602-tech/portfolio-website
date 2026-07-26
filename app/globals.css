@@ -1937,12 +1937,14 @@ a.cinfo-val:hover {
   }
 
   .hero-inner {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 32px;
     width: min(100%, calc(100% - 32px));
   }
 
   .hero-content {
+    order: 1;
     align-items: center;
     text-align: center;
   }
@@ -1977,6 +1979,7 @@ a.cinfo-val:hover {
   }
 
   .hero-visual {
+    order: 2;
     width: 100%;
     max-width: 480px;
     margin: 0 auto;
