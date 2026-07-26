@@ -94,10 +94,8 @@ export default function RootLayout({ children }) {
     email: "mailto:hiteshvaishnav602@gmail.com",
     telephone: "+917877613187",
     sameAs: [
-      "https://github.com",
-      "https://linkedin.com",
-      "https://x.com",
-      "https://instagram.com",
+      "https://github.com/hiteshvaishnav602-tech",
+      "https://www.linkedin.com/in/hitesh-vaishnav-dev",
     ],
     knowsAbout: [
       "React.js",

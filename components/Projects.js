@@ -10,7 +10,12 @@ export default function Projects() {
             <div className="pcard-top">
               <div className="pcard-icon">🛒</div>
               <div className="pcard-links">
-                <a href="#" className="plink" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/hiteshvaishnav602-tech"
+                  className="plink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub ↗
                 </a>
                 <a href="#" className="plink live" target="_blank" rel="noopener noreferrer">
@@ -49,7 +54,12 @@ export default function Projects() {
             <div className="pcard-top">
               <div className="pcard-icon">🌐</div>
               <div className="pcard-links">
-                <a href="#" className="plink" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/hiteshvaishnav602-tech/portfolio-website"
+                  className="plink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub ↗
                 </a>
                 <a href="#" className="plink live" target="_blank" rel="noopener noreferrer">
