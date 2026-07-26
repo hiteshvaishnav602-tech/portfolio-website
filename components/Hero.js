@@ -127,11 +127,13 @@ export default function Hero() {
           </p>
           <div className="hero-actions">
             <a
-              href="#projects"
+              href="/resume.pdf"
+              download="Hitesh_Vaishnav_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
-              onClick={(e) => handleScrollTo(e, 'projects')}
             >
-              View My Work <span className="btn-arrow">→</span>
+              Resume <span className="btn-arrow">📄</span>
             </a>
             <a
               href="#contact"
