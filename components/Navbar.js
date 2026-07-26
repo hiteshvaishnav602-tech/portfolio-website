@@ -67,7 +67,7 @@ export default function Navbar() {
           Hire Me
         </a>
         <button
-          className="nav-hamburger"
+          className={`nav-hamburger ${mobileOpen ? 'open' : ''}`}
           id="hamburger"
           aria-label="Menu"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -88,6 +88,15 @@ export default function Navbar() {
             {sec.charAt(0).toUpperCase() + sec.slice(1)}
           </a>
         ))}
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=hiteshvaishnav602@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mob-cta"
+          onClick={() => setMobileOpen(false)}
+        >
+          Hire Me ✉️
+        </a>
       </div>
     </nav>
   );
