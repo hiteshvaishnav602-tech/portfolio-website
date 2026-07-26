@@ -36,7 +36,13 @@ export default function About() {
               </div>
               <div className="meta-item">
                 <span className="meta-icon">📧</span>
-                <a href="mailto:hiteshvaishnav602@gmail.com">hiteshvaishnav602@gmail.com</a>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=hiteshvaishnav602@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  hiteshvaishnav602@gmail.com
+                </a>
               </div>
               <div className="meta-item">
                 <span className="meta-icon">📞</span>

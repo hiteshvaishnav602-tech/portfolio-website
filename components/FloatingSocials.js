@@ -22,8 +22,10 @@ export default function FloatingSocials() {
         </svg>
       </a>
       <a
-        href="mailto:hiteshvaishnav602@gmail.com"
-        title="Email"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=hiteshvaishnav602@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Send Email"
       >
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <rect x="2" y="4" width="20" height="16" rx="2" />

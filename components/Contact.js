@@ -36,13 +36,13 @@ export default function Contact() {
       const subject = form.elements._subject.value;
       const message = form.elements.message.value;
 
-      const mailtoUrl = `mailto:hiteshvaishnav602@gmail.com?subject=${encodeURIComponent(
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=hiteshvaishnav602@gmail.com&su=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-      window.location.href = mailtoUrl;
+      window.open(gmailUrl, '_blank');
 
       setStatusMsg({
-        text: '✉️ Opening your email app to send message to Hitesh...',
+        text: '✉️ Opening Gmail in web browser to send message to Hitesh...',
         type: 'success',
       });
     } finally {
@@ -69,7 +69,12 @@ export default function Contact() {
               </div>
               <div>
                 <p className="cinfo-label">Email</p>
-                <a href="mailto:hiteshvaishnav602@gmail.com" className="cinfo-val">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=hiteshvaishnav602@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cinfo-val"
+                >
                   hiteshvaishnav602@gmail.com
                 </a>
               </div>

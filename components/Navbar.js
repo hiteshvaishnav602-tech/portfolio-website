@@ -58,7 +58,12 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <a href="mailto:hiteshvaishnav602@gmail.com" className="nav-cta">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=hiteshvaishnav602@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-cta"
+        >
           Hire Me
         </a>
         <button
