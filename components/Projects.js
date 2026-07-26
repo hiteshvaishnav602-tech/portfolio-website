@@ -72,7 +72,7 @@ export default function Projects() {
               <span>React.js</span>
               <span>Node.js</span>
               <span>Express.js</span>
-              <span>MongoDB</span>
+              <span>PostgreSQL</span>
               <span>Role &amp; Vendor Model</span>
             </div>
             <ul className="pcard-bullets">
@@ -86,7 +86,7 @@ export default function Projects() {
                 Built complete <strong>Vendor Model</strong> system for vendor onboarding, catalog management, purchase order tracking, and status updates.
               </li>
               <li>
-                Designed scalable RESTful APIs with Express.js and optimized MongoDB schemas for handling high-volume operational records.
+                Designed relational database schemas in <strong>PostgreSQL</strong> with optimized SQL queries, foreign key relations, and index optimization.
               </li>
               <li>
                 Crafted an interactive React.js admin dashboard featuring real-time data tables, search filtering, and CRUD operations.
